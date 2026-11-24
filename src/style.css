@@ -1,0 +1,27 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background: #eef4ff;
+}
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 25px;
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.10);
+}
+h1 { color: #263b66; }
+.product {
+  width: 100%;
+  margin: 14px 0;
+  padding: 12px;
+  border: 1px solid #d8e1ef;
+  border-radius: 8px;
+  background: #fafcff;
+}
+.product h2 { margin: 5px; color: #263b66; }
+.product p { margin: 5px; color: #16804a; font-weight: bold; }
